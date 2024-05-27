@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Copy Text | HTML CSS JavaScript</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl5/0fl5j1Q7tTx/iDb/x8FJvSoVvO8yU2i/FJvsSw" crossorigin="anonymous"></script>
+    <script src="./js/main.js" defer></script>
+</head>
+<body>
+    <p>Copy a text to clipboard on a button-click</p>
+    <p id="p1">Hello, I'm TEXT 1</p>
+    <p id="p2">Hello, I'm TEXT 2</p>
+    <br/>
+    <button onclick="copyToClipboard('#p1')">Copy TEXT 1</button>
+    <button onclick="copyToClipboard('#p2')">Copy TEXT 2</button>
+    <br/><br/> <input type="text" class="textBox" id="" placeholder="Test it here">
+</body>
+</html>
